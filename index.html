@@ -2,8 +2,20 @@
 <html>
 <head>
 	<title>Date Picker</title>
+	<link rel="stylesheet" type="text/css" href="css/datepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			$('.datepicker').datepicker();
+		});
+	</script>
 </head>
 <body>
-	
+	<div class="well">
+		Date of Birth : <input class="datepicker" type="text" name="date">
+	</div>
 </body>
 </html>
